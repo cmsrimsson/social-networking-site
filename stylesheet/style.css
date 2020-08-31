@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: white;
+position: relative;
+}
+.header{
+    height: 300px;
+    width: 850px;
+    background-color: navy;
+    display: block;
+    left: 5px;
+    position: relative;
+}
+#photo{
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 120px;
+    left: 10px;
+    border: 1px solid black;
+    z-index: 1;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+#info{
+    position: relative;
+    color: yellow;
+    font-size: 24px;
+    top: 200px;
+    left: 175px;
+}
+#website{
+    position: relative;
+    color: yellowgreen;
+    font-size: 18px;
+    font-family: cursive; top: 205px;
+    left: 180px;
+
+}
+ul#Allbuttons li{
+    display: inline;
+    font: 20px;
+    color: blue;
+    
+}
+    
+#Allbuttons{
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 3px 3px;
+        cursor: pointer;
+        position: absolute;
+        left: 570px;
+        top: 250px;
+    
+}
+.botton{
+    background-color: white;
+}
+#like{
+    border: none;
+    color: cornsilk;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+
+ul#ubottons li{
+    display: inline;
+    font: 20px;
+    color: blue;
+    
+}
+.nav-list{
+    position: absolute;
+    left: 200px;
+    top: 310px;
+ }
+ .list{
+    display:inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: bold;
+
+ }  
+.list:hover{
+    background-color: violet;
+}
+
+
+.profile{
+    border: 5px solid white;
+    position: absolute;
+    background-color: royalblue;
+}
+.Nayan{
+    height: 350px;
+    width: 512px;
+    top: 340px;
+    left: 348px;
+    font: 16px italic;
+    color: darkred;
+    column-count: 2;
+    column-rule-color: deeppink;
+    padding-block-start: 200px;
+}
+ 
+#nphoto{
+    border: 2px solid thistle;
+    background-color: saddlebrown;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    left: 20px;
+    top: 60px;
+    object-fit: cover;
+}
+
+.Prince{
+    height: 350px;
+    width: 328px;
+    top: 340px;
+    padding-block-start: 180px;
+}
+#pphoto{
+    border: 2px solid rosybrown;
+    background-color: sandybrown;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    z-index: 1;
+    left: 400px;
+    top: 390px;
+}
